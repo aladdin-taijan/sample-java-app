@@ -24,7 +24,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: aladdintaijandev/app:latest
+          tags: aladdintaijandev/javaapp:latest
       
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
